@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta Charset="UTF-8">
-  <title>tMinus</title>
-  <link rel="stylesheet" type="text/css" href="">
-</head>
-<body>
-  <section>
+<html ng-app='funspots'>
+	<head>
+	  <meta Charset="UTF-8">
+	  <title>tMinus</title>
+	  <link rel="stylesheet" type="text/css" href="">
+	</head>
+	<body>
+	  <section>
+	    <div>
+	      <div ng-view></div>
+	    </div>
+	  </section>
 
-    <div>
-      <div ng-view></div>
-    </div>
-
-
-  </section>
-</body>
+	  <script type="text/javascript" src="js/vendor/public/lib/jquery/dist/jquery.js"></script>
+	  <script type="text/javascript" src="js/vendor/scripts/angular.js"></script>
+	  <script type="text/javascript" src="js/vendor/scripts/angular-route.js"></script>
+	  <script type="text/javascript" src="js/custom/route.js"></script>
+	  <script type="text/javascript" src="js/custom/controller.js"></script>
+	</body>
 </html>
