@@ -1,0 +1,11 @@
+{
+  "name": "tMinus",
+  "version": "1.0.0",
+  "description": "A one paged productivity tool to help with tracking of how much time is spent on what",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olucheye.",
+  "license": "ISC"
+}
