@@ -26,6 +26,12 @@ var funspots = angular.module('funspots', ['ngRoute'])
     .when('/form', {
       templateUrl : 'templates/form.html',
       controller : 'formCtrl'
+    })
+
+    //contactPage route
+    .when('/help', {
+      templateUrl : 'templates/intro.html',
+      controller : 'formCtrl'
     }).
 
     //homePage route

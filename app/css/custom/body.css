@@ -1,0 +1,22 @@
+body {
+	background: url("http://dailysky.yakohl.com/pic/thumbs/today.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#background {
+	height: 100%;
+}
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	background: rgba(217, 243, 178, 0.4);
+}
+
+ul li {
+	list-style: none;
+}
